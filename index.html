@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Band Press Kit</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/@ptkdev/webcomponent-instagram-widget@latest/dist/lib/en/instagram-widget.min.js"></script>
 </head>
 <body>
     <header>
-        <div class="container">
-            <h1>Your Band Name</h1>
-            <img src="band_logo.jpg" alt="Band Logo">
+        <div class="banner">
+            <img src="images/topbanner.png" alt="Band Logo">
         </div>
     </header>
     <main class="container">
@@ -19,31 +19,97 @@
             <p>Short bio about the band.</p>
         </section>
         <section id="music">
-            <h2>Listen to Our Music</h2>
+            <h2>Music</h2><center>
             <ul>
                 <li><a href="spotify_link">Spotify</a></li>
                 <li><a href="apple_music_link">Apple Music</a></li>
                 <li><a href="youtube_link">YouTube</a></li>
-            </ul>
+            </ul></center>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/4n6Z7XcS3yBsZbQBWMwgqx?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
         </section>
+        <section id="shows">
+            <h2>Upcoming Shows</h2>
+            <ul>
+                <li>June 8th - Meow, Wellington NZ</li><br>
+                <li>June 21st - Whammy, Auckland NZ</li><br>
+                <li>July 19th - Space Academy, Christchurch NZ</li><br>
+                <li>July 20th - Pearl Diver, Dunedin NZ</li><br>
+            </ul>
         <section id="photos">
             <h2>Photos</h2>
             <img src="photo1.jpg" alt="Band Photo 1">
             <img src="photo2.jpg" alt="Band Photo 2">
         </section>
-        <section id="press">
+        
+        <section id="videos">
+            <h2>Music Videos</h2>
+            <div class="video-grid">
+                <div class="video-item">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/your_video_id1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="video-item">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/dVWQEB6wEiY?si=vVJ53zmSk29JfIGv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="video-item">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ervuAXX8pmA?si=2-dFi8NKRxCQ7nV_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="video-item">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/your_video_id4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+        <section id="Live Snips">
+            <h2>Live Snippets</h2>
+            <div class="video-grid">
+                <div class="video-item">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/oAD6ynooeHI?si=rIF9HulTs4upf55W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                    
+                </div>
+                <div class="video-item">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/9udzd2qJgxc?si=IZFptgjHQ9QDNPN2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <br>
+
+            <section id="press">
+
             <h2>Press Quotes</h2>
-            <blockquote>“Amazing band!” – Music Magazine</blockquote>
+            <h3>Praise for ‘A Kingdom In A Cul-De-Sac’</h3>
+            <ul>
+
+            <blockquote><center>
+                <img src="images/Telerama logo.png" alt="Quote" class="quote-image">
+                “Infectious pop music with lyrics that are as quirky as they are heartfelt. Irresistible.” 
+               <br> - François Gorin, Télérama </center>
+            </blockquote>
+            <blockquote> 
+                <center><img src="images/Liberation.svg" alt="Quote" class="quote-image">
+                “A folk-pop-punk album to discover.“ <br> Alexis Bernier, Libération </center></blockquote>
+            <blockquote>
+                <center><img src="images/FIP logo 2021.svg" alt="Quote" class="quote-image">
+                “A kaleidoscopic and surreal pop journey.”<br>
+                - Guillaume Schnee, FIP </center></blockquote>
+        <blockquote>
+            <center><img src="images/Rolling Stone 2022.svg" alt="Quote" class="quote-image">
+                “Hook-laden, vocally rich material” <br>
+                - Rolling Stone AU/NZ </center></blockquote>
+
+            </ul>
         </section>
         <section id="contact">
             <h2>Contact Us</h2>
-            <p>Email: contact@yourband.com</p>
-            <p>Social Media: @yourband</p>
+            <h3>Label: Think Zik ! (France)</h3>
+            <p>Email: tanguy@thinkzik.com</p>
+            <h3>Booking EU</h3>
+            <p>Email: tanguy@thinkzik.com</p>
+            <h3>Booking NZ</h3>
+            <p>Email: kanisabort@gmail.com</p>
+            <h3>Social Media</h3>
+            <p>Instagram @hatheunclear</p>
         </section>
     </main>
     <footer>
         <div class="container">
-            <p>&copy; 2024 Your Band Name. All rights reserved.</p>
+            <p>&copy; 2024 Ha the Unclear. All rights reserved.</p>
         </div>
     </footer>
 </body>
