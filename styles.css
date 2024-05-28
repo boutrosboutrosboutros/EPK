@@ -141,13 +141,6 @@ blockquote img.quote-image {
     max-height: auto   ;
 }
 
-a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-    cursor: pointer; /* Add this line */
-}
-
 a:hover {
     color: #77d9e5;
 }
